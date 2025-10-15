@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./response.html" target="_blank" name="Biodata" method="get">
+        <fieldset>
+            <legend>Biodata</legend>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required/>
+            <label for="date">DOB</label>
+            <input id="dob" name="DOB" required/><br>
+            <label for="phone">PHONE</label>
+            <input type="tel" name="tel" placeholder="Enter your phonenumber" required/><br>
+            <label for="attempt">Attempt</label>
+            <input type="number" id="attempt" name="attempt" min="1" max="3" required/><br>
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="Enter your email" required/><br>
+            <label for="gender">Gender</label>
+            <input type="radio" id="female" name="gender" value="female" required/>
+            <lable for="female">female</label>
+            <input type="radio" id="male" name="gender" value="male" required/>
+            <label for="male">Male</label><br>
+            <label for="check">Vehicle you have</label>
+            <input type="checkbox" id="bike" name="vehicle" value="Bike"/>
+            <label for="bike">Bike</label>
+            <input type="checkbox" id="car" name="vehicle" value="car" checked/>
+            <label for="car">Car</label><br>
+            <label for="lang">Select ypur programming launguage</label>
+            <select name="lang" id="lang">
+                <option>"select your launguage"</option>
+                <optgroup label="Programming launguage">
+                <option value="C++">C++</option>
+                <option value="C">C</option>
+                <option value="python">python</option>
+                <option value="java">java</option>
+                </optgroup>
+                <optgroup label="fronted technologies">
+                    <option value="HTML">HTML</option>
+                    <option value="CSS">CSS</option>
+                    <option value="ruby">Ruby</option>
+                </optgroup>
+            </select><br>
+            <label for="pass">Password:</label>
+            <input type="password" name="pass" id="pass" placeholder="Enter your password" required/><br>
+            <label for="appoint">appointment</label>
+            <input type="number" name="appoint" id="appoint" required/><br>
+            <Label for="file">File</Label>
+            <input type="file" id="file" name="file" required/><br>
+            <label for="address">Address</label>
+            <textarea name="text" id="add" rows="3"></textarea><br>
+            <input type="submit" value="submit"/>
+            <input type="reset" value="Reset"/>
+
+        </fieldset>
+
+    </form>
+
+</body>
+</html>
